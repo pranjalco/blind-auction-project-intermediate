@@ -1,18 +1,8 @@
 # Blind Auction Project
-
-## Description:
-The Blind Auction Project allows users to participate in an auction where they can input their bids. The program 
-collects user data (name and price) and stores it in a dictionary. It checks whether new bids need to be added and 
-compares the bids to identify the highest one.
-
-## Level
-- **Level**: Intermediate
-- **Skills:** Python, Functions, Loops, Dictionaries, User Input Handling
-- **Domain:** Auction, CLI, User Interaction
+A Python program where users submit bids anonymously. It stores names and bids in a dictionary, checks for new entries, and determines the highest bidder.
 
 ## Author
-- **Name**: Pranjal Sarnaik
-- **Date**: 2024-12-03
+Pranjal Sarnaik
 
 ## Features
 - Collects user input for bids (name and price).
@@ -20,23 +10,17 @@ compares the bids to identify the highest one.
 - Uses while loops for repeated input and decision-making.
 - Allows for bid comparisons to determine the highest bid.
 
-## Installation
-1. Clone this repository:
-   ```bash
+## Tech Stack
+ Intermediate | Python | Functions | Loops | Dictionaries | User Input Handling | Auction | CLI | User Interaction
+
+## How to Run
+1. Clone the repo:  
+   ```bash  
    git clone https://github.com/pranjalco/blind-auction-project-intermediate.git
 
-2. Navigate to the project directory:
-   ```bash
-   cd blind-auction-project-intermediate
+2. Run:
+    ```bash  
+   python app.py
 
-## Running the Program
-1. Ensure Python 3.9 or later is installed on your system.
-2. To run the program:
-   - **Using PyCharm**: Open the project in PyCharm and run `app.py`.
-   - **Using Terminal/Command Prompt**: Navigate to the project folder and execute:
-     ```bash
-     python app.py
-     ```
-   - **By Double-Clicking**: You can double-click `app.py` to run it directly, provided Python is set up to execute `.py` files on your system.
-3. If the console window closes immediately, run the program from the terminal/command prompt or IDE to see the output.
-
+**Created by Pranjal Sarnaik**  
+*© 2024. All rights reserved.*
